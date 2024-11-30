@@ -1,5 +1,10 @@
 import request from '@/utils/request'
 
+/**
+ *
+ * @param query 查询参数
+ * @returns {*} 返回请求体
+ */
 export function fetchList(query) {
   return request({
     url: '/vue-element-admin/article/list',
